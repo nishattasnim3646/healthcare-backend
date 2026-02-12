@@ -18,3 +18,6 @@ Check installation
 
 To start the development server, use the following command:
     npm run dev
+
+To store secret variables config.env is created. 
+config.env stores PORT, MONGO_URI, FRONTEND_URL, DASHBOARD_URL, JWT_SCERET_KEY, JWT_EXPIRES, COOKIE_EXPIRE, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_SECRET, CLOUDINARY_API_KEY.
