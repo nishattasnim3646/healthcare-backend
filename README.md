@@ -28,3 +28,8 @@ Create project in MongoDB. Put the mongo_uri in config.env and define the config
 Request → Middleware → Controller → Response
 
 Connect frontend and backend creating middleware (app.use(cors({...}))) user's frontend and admin's dashboard connection with backend and defining the methods.
+adding other middlewares cookieParser(), express.json(), express.urlencoded(), fileUpload().
+
+
+In dbConnection.js, import the mongoose library to connect to MongoDB and dbConnection() in app.js.
+
