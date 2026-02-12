@@ -21,3 +21,5 @@ To start the development server, use the following command:
 
 To store secret variables config.env is created. 
 config.env stores PORT, MONGO_URI, FRONTEND_URL, DASHBOARD_URL, JWT_SCERET_KEY, JWT_EXPIRES, COOKIE_EXPIRE, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_SECRET, CLOUDINARY_API_KEY.
+
+Create project in MongoDB. Put the mongo_uri in config.env and define the config path (app.js). Checking whether config file is connected or not, put process.env.PORT in place of port number(server.js)
