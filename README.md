@@ -33,3 +33,5 @@ adding other middlewares cookieParser(), express.json(), express.urlencoded(), f
 
 In dbConnection.js, import the mongoose library to connect to MongoDB and dbConnection() in app.js.
 
+Generate API Key in cloudinary, store the variables (CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_SECRET, CLOUDINARY_API_KEY) va;ue in config.env
+Setup cloudinary with server.js (cloudinary.v2.config())
